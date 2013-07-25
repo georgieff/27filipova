@@ -1,6 +1,6 @@
 body {
   background: #EEE;
-  font-family: "Quicksand", sans-serif;
+  font-family: "quicksandlight", sans-serif;
   overflow: hidden;
   background-color: black; }
 
@@ -19,7 +19,6 @@ body {
   .wrapper h1,
   .wrapper #coming-soon {
     margin: 0;
-    font-size: 90px;
     font-weight: 200;
     color: #fefefe;
     text-shadow: 2px 4px 5px black;
@@ -31,6 +30,7 @@ body {
     -ms-user-select: none;
     user-select: none; }
   .wrapper h1 {
+    font-size: 90px;
     display: table-cell;
     vertical-align: middle; }
   .wrapper #coming-soon {
