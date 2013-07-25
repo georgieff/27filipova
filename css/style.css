@@ -1,0 +1,44 @@
+body {
+  background: #EEE;
+  font-family: "Quicksand", sans-serif;
+  overflow: hidden;
+  background-color: black; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  height: 90%;
+  display: table;
+  text-align: center;
+  background-image: url("../images/circle_overlay.png"), url("../images/city-lights.jpg");
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  -moz-box-shadow: 0 0 34px 32px black inset;
+  -webkit-box-shadow: 0 0 34px 32px black inset;
+  box-shadow: 0 0 34px 32px black inset; }
+  .wrapper h1,
+  .wrapper #coming-soon {
+    margin: 0;
+    font-size: 90px;
+    font-weight: 200;
+    color: #fefefe;
+    text-shadow: 2px 4px 5px black;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none; }
+  .wrapper h1 {
+    display: table-cell;
+    vertical-align: middle; }
+  .wrapper #coming-soon {
+    position: absolute;
+    bottom: -40px;
+    left: 10px;
+    font-size: 40px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }

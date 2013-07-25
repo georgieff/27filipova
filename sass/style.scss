@@ -1,0 +1,57 @@
+$overlay-color: #000;
+$page-shadow: 0 0 34px 32px $overlay-color inset;
+$text-shadow: 2px 4px 5px $overlay-color;
+$default-transition: all 0.3s ease-in-out;
+
+body {
+  background: #EEE;
+  font-family: "Quicksand", sans-serif;
+  overflow: hidden;
+  background-color: $overlay-color;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  height: 90%;
+  display: table;
+  text-align: center;
+  background-image:  url('../images/circle_overlay.png'), url('../images/city-lights.jpg');
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  -moz-box-shadow: $page-shadow;
+  -webkit-box-shadow: $page-shadow;
+  box-shadow: $page-shadow;
+
+  h1,
+  #coming-soon {
+    margin: 0;
+    font-size: 90px;
+    font-weight: 200;
+    color: #fefefe;
+    text-shadow: $text-shadow;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  h1 {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  #coming-soon {
+    position: absolute;
+    bottom: -40px;
+    left: 10px;
+    font-size: 40px;
+    -webkit-transition: $default-transition;
+    -moz-transition: $default-transition;
+    -o-transition: $default-transition;
+    transition: $default-transition;
+  }
+}
